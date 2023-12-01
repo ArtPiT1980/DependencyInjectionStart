@@ -42,12 +42,12 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
 
-    implementation("com.google.dagger:dagger:2.28.3")
-    kapt("com.google.dagger:dagger-compiler:2.x")
+    implementation("com.google.dagger:dagger:2.48.1")
+    kapt("com.google.dagger:dagger-compiler:2.48.1")
 
-    implementation("com.google.dagger:dagger-android:2.x")
-    implementation("com.google.dagger:dagger-android-support:2.x")
-    kapt("com.google.dagger:dagger-android-processor:2.x")
+    implementation("com.google.dagger:dagger-android:2.48.1")
+    implementation("com.google.dagger:dagger-android-support:2.48.1")
+    kapt("com.google.dagger:dagger-android-processor:2.48.1")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

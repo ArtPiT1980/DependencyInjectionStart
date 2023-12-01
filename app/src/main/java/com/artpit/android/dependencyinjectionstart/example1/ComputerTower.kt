@@ -1,4 +1,8 @@
 package com.artpit.android.dependencyinjectionstart.example1
 
-class ComputerTower(val storage: Storage, memory: Memory, processor: Processor) {
+class ComputerTower(
+    val storage: Storage,
+    val memory: Memory,
+    val processor: Processor
+) {
 }
